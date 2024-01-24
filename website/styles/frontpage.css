@@ -1,0 +1,410 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+p1{
+    text-align:left;
+    color:white;
+    position:absolute;
+    left:320px;
+    top:-245px;
+    font-size: 65px;
+   
+}
+.container{
+    position:relative;
+    text-align:center;
+    
+    
+}
+.centered{
+    position:absolute;
+    top:145%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+}
+.column{
+    float:left;
+    width:23%;
+    padding:0.9rem;
+}
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.column1{
+    float:left;
+    width:23%;
+    padding:5px;
+
+}
+.row1::after{
+    content:"";
+    clear:both;
+    display:table;
+   
+}
+.top-right{
+    position:absolute;
+    top:1595px;
+    right:16px;
+}
+.top-left{
+    position:absolute;
+    top:4380px;
+    right:16px;    
+}
+.topnav{
+    background-color:transparent;
+    overflow:hidden;
+    position:fixed;  
+    top:0;
+    width:90%;
+}
+.topnav a{
+    float:left;
+    display:block;
+    color:white;
+    text-align:Center;
+    padding:14px;
+    text-decoration: none;
+    font-size:17px;
+
+
+}
+.topnav a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.topnav a.split{
+    float:right;
+    background-color: black;
+    color: antiquewhite;
+}
+.topnav-right{
+    float:right;
+}
+img{
+    width:100%;
+    object-fit:inherit;
+    object-position:right;
+}
+.mask{
+    position: absolute;
+    top:56px;
+    opacity: 0.9;
+}
+#myVideo{
+    position:relative;
+    right:0;
+    bottom:0;
+    width:1500px;
+    height:700px;
+    opacity:0.3;
+    object-fit:cover;
+    max-width: 100%;
+    display:block;
+
+}
+.content{
+    position:relative;
+
+    
+}
+#myBtn{
+    width:100px;
+    font-size:16px;
+    background: black;
+    color:white;
+    cursor:pointer;
+    position:absolute;
+    padding:10px 10px;
+    top:-65px;
+    left:90%;
+
+}
+#myBtn:hover{
+    background:white;
+    color:black;   
+}
+.nav-btn{
+    border:none;
+    color:white;
+    padding:12px 40px;
+    text-align:right;
+    text-decoration: none;
+    font-size:16px;
+    margin:px -20px 40px 20px;
+    cursor:pointer;
+    float: right;
+    background: black;
+    position:inherit;
+    background-color: transparent;
+    right:100px;
+    border:2px solid white;
+    border-radius: 9px;
+    
+}     
+.nav-btn:hover{
+    background-color:white;
+    color:black;
+}
+
+img.one{
+    height:50%;
+    width:10%;
+   
+}
+.button{
+    border:none;
+    color:rgb(158, 46, 46);
+    padding:10px 10px;
+    text-align:center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 18px;
+    margin:-100px 330px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    position:relative;
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+    border-radius:9px;
+    top:-50px;
+   
+} 
+ 
+.button:hover{
+    background-color: white;
+    color:black;
+}
+h1{
+    font-size:45px;
+}
+h5{
+    font-size:70px;
+}
+
+.navbar{
+    background-color: inherit;
+    overflow:hidden;
+    bottom:0;
+    width:60%;
+}
+.navbar a{
+    float:left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:77px 12px;
+    text-decoration:none;
+    font-size:20px;
+    padding-top: 200px;
+}
+.navbar a:hover{
+    border-bottom: 3px solid transparent;
+    text-decoration-line:underline ;
+}
+.navbar-right{
+    float:right;
+}
+
+.button1{
+    border:none;
+    color:rgb(158, 46, 46);
+    padding:10px 10px;
+    text-align:center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:30px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    position:relative;
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+    border-radius:9px;
+    top:60px;
+    width:100%;
+   
+} 
+ 
+.button1:hover{
+    background-color: white;
+    color:black;
+}
+
+footer{
+    text-align: center;
+    padding:3px;
+    color:white;
+    font-size:larger;
+}
+
+hr.one{
+    margin-top:23px;
+    height:0px;
+    background: white;
+    
+  
+}
+hr.two{
+    margin-top:22px;
+    height:1px;
+    background: white;
+    
+  
+}
+hr.three{
+    margin-top:21px;
+    height:2px;
+    background: white;
+    
+  
+}
+hr.four{
+    margin-top:20px;
+    height:3px;
+    background: white;
+    
+    
+}
+hr.five{
+    margin-top:19px;
+    height:4px;
+    background: white;
+    
+    
+}
+hr.six{
+    margin-top:18px;
+    height:5px;
+    background: white;
+    
+    
+}
+hr.seven{
+    margin-top:17px;
+    height:6px;
+    background: white;
+    
+    
+}
+hr.eight{
+    margin-top:16px;
+    height:7px;
+    background: white;
+    
+    
+}
+hr.nine{
+    margin-top:15px;
+    height:8px;
+    background: white;
+    
+    
+}
+hr.ten{
+    margin-top:14px;
+    height:9px;
+    background: white;
+    
+}        
+hr.eleven{
+    margin-top:13px;
+    height:10px;
+    background: white;
+    
+}        
+hr.twelve{
+    margin-top:12px;
+    height:11px;
+    background: white;
+    
+}        
+hr.thirteen{
+    margin-top:11px;
+    height:12px;
+    background: white;
+    
+}        
+hr.fourteen{
+    margin-top:10px;
+    height:13px;
+    background: white;
+    
+}        
+hr.fifteen{
+    margin-top:9px;
+    height:14px;
+    background: white;
+    
+}        
+hr.sixteen{
+    margin-top:8px;
+    height:15px;
+    background: white;
+    
+}        
+hr.seventeen{
+    margin-top:7px;
+    height:16px;
+    background: white;
+    
+}        
+hr.eighteen{
+    margin-top:6px;
+    height:17px;
+    background: white;
+    
+}        
+hr.nineteen{
+    margin-top:5px;
+    height:18px;
+    background: white;
+    
+}        
+hr.twenty{
+    margin-top:4px;
+    height:19px;
+    background: white;
+    
+}        
+hr.twenty-one{
+    margin-top:3px;
+    height:20px;
+    background: white;
+    
+}
+hr.twenty-two{
+    margin-top:2px;
+    height:21px;
+    background: white;
+    
+}                
+hr.twenty-three{
+    margin-top:1px;
+    height:22px;
+    background: white;
+    
+}        
+hr.twenty-four{
+    margin-top:0px;
+    height:23px;
+    background: white;
+    
+}        
+hr.twenty-five{
+    margin-top:9px;
+    height:0px;
+    background: white;
+
+    
+}        
